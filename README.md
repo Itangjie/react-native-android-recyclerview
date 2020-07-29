@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-recyclerview --save`
+`$ npm install react-native-android-recyclerview --save`
 
 ### Mostly automatic installation(react-native < 0.60)
 
-`$ react-native link react-native-recyclerview`
+`$ react-native link rreact-native-android-recyclerview`
 
 ### Manual installation
 
@@ -18,12 +18,12 @@
   - Add `new RNRecycleviewPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-recyclerview'
-  	project(':react-native-recyclerview').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-recyclerview/android')
+  	include ':react-native-android-recyclerview'
+  	project(':react-native-android-recyclerview').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-android-recyclerview/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-recyclerview')
+      compile project(':react-native-android-recyclerview')
   	```
 
 

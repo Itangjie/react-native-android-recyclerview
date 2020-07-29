@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-android-recycleview",
+  "name": "react-native-android-recyclerview",
   "version": "1.0.0",
   "description": "A React Native ListView, Use Android RecyclerView (Only Android)",
   "main": "index.js",
@@ -13,8 +13,15 @@
     "android",
     "listview"
   ],
-  "author": "Itangjie",
+  "author": {
+    "name" : "Itangjie",
+    "email": "154165897@qq.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Itangjie/react-native-android-recyclerview.git"
+  },
   "peerDependencies": {
     "react-native": "^0.61.5"
   }
