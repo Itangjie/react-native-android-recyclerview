@@ -1,5 +1,5 @@
 
-# react-native-recyclerview
+# react-native-android-recyclerview
 
 ## Getting started
 
