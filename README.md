@@ -47,7 +47,7 @@ import {RecyclerView,DataSource} from 'react-native-android-recycleview';
 />
 ```
 ## Example
-Check [example](https://github.com/Itangjie/react-native-android-recyclerview/example) in the  folder.
+Check [example](https://github.com/Itangjie/react-native-android-recyclerview/tree/master/example) in the  folder.
 
 ```bash
 $ cd example
