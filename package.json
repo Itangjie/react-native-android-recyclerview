@@ -1,0 +1,21 @@
+
+{
+  "name": "react-native-android-recycleview",
+  "version": "1.0.0",
+  "description": "A React Native ListView, Use Android RecyclerView (Only Android)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "recycleview",
+    "android",
+    "listview"
+  ],
+  "author": "Itangjie",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.61.5"
+  }
+}
