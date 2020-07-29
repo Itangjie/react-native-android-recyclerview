@@ -35,22 +35,26 @@ import {RecyclerView,DataSource} from 'react-native-android-recycleview';
     ref={(component) => this._recycler = component}
     style={{ flex: 1 }}
     dataSource={dataSource}
-    renderItem={this.renderItem}
+    renderItem={(item,index)=>{
+        return(
+            <View/>
+        )   
+    }}
     windowSize={50}
     initialScrollIndex={0}
     inverted={false}
-    ListHeaderComponent={(
-        <View style={{ paddingTop: 15, backgroundColor: '#eee' }} />
-    )}
-    ListFooterComponent={(
-        <View style={{ paddingTop: 15, backgroundColor: '#aaa'}} />
-    )}
-    ListEmptyComponent={(
-        <View style={{ borderColor: '#e7e7e7', borderWidth: 1, margin: 10, padding: 20, }}>
-            <Text style={{ fontSize: 15 }}>Empty Component</Text>
-        </View>
-    )}
-    ItemSeparatorComponent={(
-        <View style={{ borderBottomWidth: 1, borderColor: '#e7e7e7', marginHorizontal: 5, marginVertical: 10 }} />
-    )} />
+    column={1}
+/>
 ```
+## Example
+Check [example](https://github.com/Itangjie/react-native-android-recyclerview/example) in the  folder.
+
+```bash
+$ cd example
+$ npm install
+$ react-native run-android
+```
+
+## Other
+Project fork's [react-native-recyclerview-list](https://github.com/godness84/react-native-recyclerview-list)
+
