@@ -29,7 +29,7 @@
 
 ## Usage
 ```javascript
-import {RecyclerView,DataSource} from 'react-native-android-recycleview';
+import {RecyclerView,DataSource} from 'react-native-android-recyclerview';
 
 <RecyclerView
     ref={(component) => this._recycler = component}
