@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-android-recyclerview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native ListView, Use Android RecyclerView (Only Android)",
   "main": "index.js",
   "scripts": {
