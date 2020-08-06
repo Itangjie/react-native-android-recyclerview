@@ -44,6 +44,35 @@ import {RecyclerView,DataSource} from 'react-native-android-recyclerview';
     initialScrollIndex={0}
     inverted={false}
     column={1}
+    onScrollBeginDrag={(event)=>{
+        console.log('onScrollBeginDrag')
+    }}
+    onScroll={(event)=>{
+        console.log('onScroll')
+    }}
+    onScrollEndDrag={(event)=>{
+        console.log('onScrollEndDrag')
+    }}
+    onContentSizeChange={(event)=>{
+        console.log('onContentSizeChange')
+    }}
+    onVisibleItemsChange={(event)=>{
+        console.log('onVisibleItemsChange')
+    }}
+    ListHeaderComponent={(
+        <View style={{ paddingTop: 15, backgroundColor: '#eee' }} />
+    )}
+    ListFooterComponent={(
+        <View style={{ paddingTop: 15, backgroundColor: '#aaa'}} />
+    )}
+    ListEmptyComponent={(
+        <View style={{ borderColor: '#e7e7e7', borderWidth: 1, margin: 10, padding: 20, }}>
+            <Text style={{ fontSize: 15 }}>Empty Component</Text>
+        </View>
+    )}
+    ItemSeparatorComponent={(
+        <View style={{ borderBottomWidth: 1, borderColor: '#e7e7e7', marginHorizontal: 5, marginVertical: 10 }} />
+    )} 
 />
 ```
 ## Example

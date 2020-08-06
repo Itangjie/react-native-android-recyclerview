@@ -44,6 +44,21 @@ export default class RecyclerViewDemo extends Component {
                     initialScrollIndex={0}
                     inverted={inverted}
                     column={1}
+                    onScrollBeginDrag={(event)=>{
+                        console.log('onScrollBeginDrag')
+                    }}
+                    onScroll={(event)=>{
+                        console.log('onScroll')
+                    }}
+                    onScrollEndDrag={(event)=>{
+                        console.log('onScrollEndDrag')
+                    }}
+                    onContentSizeChange={(event)=>{
+                        console.log('onContentSizeChange')
+                    }}
+                    onVisibleItemsChange={(event)=>{
+                        console.log('onVisibleItemsChange')
+                    }}
                     ListHeaderComponent={(
                         <View style={{ paddingTop: 15, backgroundColor: '#eee' }} />
                     )}
