@@ -62,6 +62,11 @@ public class RNRecycleviewManager extends ViewGroupManager<RNRecycleview> {
         parent.removeViewFromAdapter(index);
     }
 
+    @ReactProp(name = "showsVerticalScrollIndicator")
+    public void setShowsVerticalScrollIndicator(RNRecycleview parent, boolean value) {
+        parent.setVerticalScrollBarEnabled(value);
+    }
+
     @ReactProp(name = "itemCount")
     public void setItemCount(RNRecycleview parent, int itemCount) {
         parent.setItemCount(itemCount);
